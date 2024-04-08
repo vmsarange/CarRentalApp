@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+body{
+    background: url('images/image.jpg');
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.login {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 360px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+
+}
+form label{
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+
+}
+form input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+
+}
+.btn
+{
+  width: 310px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: rgb(172, 42, 42);
+  color: white;
+  font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 15px ;
+}
+.para{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: -10px;
+}
+.para a{
+    color: rgb(172, 42, 42);
+}
